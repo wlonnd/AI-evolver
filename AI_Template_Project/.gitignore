@@ -1,0 +1,22 @@
+# 忽略依赖与构建输出
+node_modules/
+dist/
+build/
+__pycache__/
+*.pyc
+
+# 忽略凭证与环境变量 (绝密！严禁提交)
+config/*.env
+config/*.json
+ops_credentials.*
+.env
+
+# 忽略本地快照与草稿
+backups/
+drafts_archive/
+*.log
+
+# 系统文件
+.DS_Store
+
+# 注意：ai_intuition 文件夹（本地直觉副本）需要被提交以保证跨设备同步
